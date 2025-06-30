@@ -31,6 +31,8 @@ Monte Carlo simulations are widely used in:
    - Runs `num_rolls = 10,000` simulations.  
    - Stores the frequency of each sum in an array (`hist`).  
    - Computes **mean**, **variance**, and **standard deviation**.  
-   - Outputs statistical results to the console.  
+   - Outputs statistical results to the console.
+     Picture of Histogram result 
+![Screenshot 2025-06-29 200205](https://github.com/user-attachments/assets/e8017ba6-cb69-446b-88e9-ae25350a47fd)
 
 
