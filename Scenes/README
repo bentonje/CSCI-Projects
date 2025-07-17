@@ -1,0 +1,54 @@
+🎯 First-Person Shooter Game in Unity
+This is a fully functional first-person shooter (FPS) game developed using Unity and C#. The game features interactive shooting mechanics, enemy AI, UI controls, and real-time feedback using Unity's physics and event systems.
+
+🚀 Features
+🔫 Raycasting-based shooting with dynamic target reactions
+🧠 Wandering AI for enemy movement and behavior
+🕹️ Player movement and camera control
+⚙️ In-game settings popup and UI management
+🔥 Fireball projectile system
+🌍 Scene transitions and game state control
+📁 Key Scripts Overview
+RayShooter.cs
+Handles shooting mechanics using raycasting. Detects hits on various enemy types and triggers corresponding game events. Provides visual feedback for missed shots using temporary indicators.
+
+FPSInput.cs
+Manages player movement using keyboard input. Integrates with Unity’s physics system to apply movement forces and ensure smooth navigation.
+
+MouseLook.cs
+Controls camera rotation based on mouse movement. Enables first-person perspective by locking and hiding the cursor, and rotating the camera and player body accordingly.
+
+WanderingAI.cs
+Implements basic AI behavior for enemies. Enemies wander randomly within the scene and can react to player actions or environmental triggers.
+
+Fireball.cs
+Defines behavior for fireball projectiles. Handles instantiation, movement, collision detection, and interaction with targets.
+
+BackAndForth.cs
+Controls objects that move between two points in the scene. Useful for patrolling enemies or moving platforms.
+
+SceneController.cs
+Manages scene transitions and game state logic. Can be used to load new levels, restart the game, or handle win/loss conditions.
+
+SettingsPopup.cs
+Implements a settings menu that can be toggled during gameplay. Allows players to adjust game preferences such as volume, sensitivity, or graphics.
+
+UIController.cs
+Handles UI elements such as score display, health bars, and crosshair. Coordinates updates based on game events and player actions.
+
+🛠️ Technologies Used
+Unity Engine
+C#
+Unity Physics System
+Unity Event System
+Coroutines
+Custom Messaging System
+🕹️ How to Play
+Open the project in Unity.
+Press Play to start the game.
+Use WASD to move and mouse to aim.
+Left-click to shoot.
+Interact with enemies and objects to trigger events.
+📷 Screenshot
+
+
